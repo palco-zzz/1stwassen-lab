@@ -1,0 +1,10 @@
+export { default as Navbar } from './Navbar';
+export { default as Hero } from './Hero';
+export { default as Marquee } from './Marquee';
+export { default as ServicesSection } from './ServicesSection';
+export { default as HowItWorksSection } from './HowItWorksSection';
+export { default as PricelistSection } from './PricelistSection';
+export { default as TestimonialsSection } from './TestimonialsSection';
+export { default as LocationSection } from './LocationSection';
+export { default as Footer } from './Footer';
+export { default as OrderModal } from './OrderModal';
