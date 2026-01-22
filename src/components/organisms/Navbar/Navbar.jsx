@@ -37,7 +37,9 @@ const Navbar = ({ onBookNow }) => {
           transition-all duration-300
           ${scrolled ? "w-[90%] md:w-[60%] rounded-full" : "w-[95%] md:w-[90%] rounded-[2rem]"}
         `}>
-          <Logo />
+          <a href="#home" onClick={(e) => handleSmoothScroll(e, '#home')} className="cursor-pointer">
+            <Logo />
+          </a>
 
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (

@@ -40,7 +40,7 @@ const Hero = ({ onBookNow, mousePosition }) => {
 
         <motion.div
           style={{ scale: heroScale, y: heroY }}
-          className="w-full px-2 text-[10vw] md:text-[8vw] leading-[0.9] md:leading-[0.85] font-black tracking-tighter text-black mix-blend-darken flex flex-col items-center"
+          className="w-full px-2 text-[9vw] md:text-[8vw] leading-[0.9] md:leading-[0.85] font-black tracking-tighter text-black mix-blend-darken flex flex-col items-center"
         >
           <span>JANGAN BIARIN</span>
           <div className="h-[1.1em] relative w-full flex justify-center items-center overflow-hidden my-1 md:my-2">
@@ -51,7 +51,7 @@ const Hero = ({ onBookNow, mousePosition }) => {
                 animate={{ y: 0, opacity: 1, rotate: 0 }}
                 exit={{ y: -100, opacity: 0, rotate: -5 }}
                 transition={{ duration: 0.5, ease: "backOut" }}
-                className={`absolute whitespace-nowrap ${heroTexts[textIndex].color}`}
+                className={`absolute whitespace-nowrap ${heroTexts[textIndex].color} ${heroTexts[textIndex].text.length > 15 ? 'text-[0.7em]' : ''}`}
               >
                 {heroTexts[textIndex].text}
               </motion.span>
