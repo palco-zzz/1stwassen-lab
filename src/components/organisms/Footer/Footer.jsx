@@ -8,6 +8,9 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h2 className="text-4xl font-black tracking-tighter uppercase">WASSEN LAB.</h2>
           <p className="font-mono text-sm mt-2 font-bold">EST. 2024 • PURWOREJO</p>
+          <p className="font-mono text-xs mt-1 font-bold">
+            Design by <a href="https://www.instagram.com/zxenxi" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors">ZXENXI</a>
+          </p>
         </div>
         <div className="flex gap-4">
           <a href="https://www.instagram.com/wassen.lab/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 border-2 border-black rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-pointer clickable">
